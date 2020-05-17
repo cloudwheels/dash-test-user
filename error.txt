@@ -1,0 +1,30 @@
+Failed to get dataContract { Error: 5 NOT_FOUND: Contract not found
+    at Object.exports.createStatusError (/home/nigel/test-contract/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/home/nigel/test-contract/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/home/nigel/test-contract/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/home/nigel/test-contract/node_modules/grpc/src/client_interceptors.js:618:8)
+    at InterceptingListener._callNext (/home/nigel/test-contract/node_modules/grpc/src/client_interceptors.js:574:12)
+    at InterceptingListener.onReceiveStatus (/home/nigel/test-contract/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/home/nigel/test-contract/node_modules/grpc/src/client_interceptors.js:847:24)
+  code: 5,
+  metadata:
+   Metadata {
+     _internal_repr:
+      { server: [Array], date: [Array], 'content-length': [Array] },
+     flags: 0 },
+  details: 'Contract not found' }
+SDK apps fetching : failed to init { Error: 5 NOT_FOUND: Contract not found
+    at Object.exports.createStatusError (/home/nigel/test-contract/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/home/nigel/test-contract/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/home/nigel/test-contract/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/home/nigel/test-contract/node_modules/grpc/src/client_interceptors.js:618:8)
+    at InterceptingListener._callNext (/home/nigel/test-contract/node_modules/grpc/src/client_interceptors.js:574:12)
+    at InterceptingListener.onReceiveStatus (/home/nigel/test-contract/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/home/nigel/test-contract/node_modules/grpc/src/client_interceptors.js:847:24)
+  code: 5,
+  metadata:
+   Metadata {
+     _internal_repr:
+      { server: [Array], date: [Array], 'content-length': [Array] },
+     flags: 0 },
+  details: 'Contract not found' }
